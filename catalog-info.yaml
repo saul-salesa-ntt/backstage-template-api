@@ -3,9 +3,9 @@ kind: API
 metadata:
   name: prueba-local-api
   description: API de ejemplo para Backstage
-  owner: tu-email@ejemplo.com
 spec:
   type: openapi
   lifecycle: experimental
+  owner: tu-email@ejemplo.com
   definition:
     $text: ./mi-api.yaml

@@ -3,10 +3,9 @@ kind: API
 metadata:
   name: prueba-local-api
   description: API de ejemplo para Backstage
-  annotations:
-    backstage.io/owner: 'tu-email@ejemplo.com'
 spec:
   type: openapi
+  owner: 'user:development/guest'
   lifecycle: experimental
   definition:
     $text: ./mi-api.yaml

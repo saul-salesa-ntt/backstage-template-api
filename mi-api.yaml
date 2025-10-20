@@ -9,3 +9,9 @@ paths:
       responses:
         '200':
           description: OK
+  /pong:
+    get:
+      summary: Respuesta pong
+      responses:
+        '200':
+          description: OK
